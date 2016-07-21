@@ -62,7 +62,7 @@ img.circle.responsive-img {
     height: auto;
 }
 #tab-consejo-nacional img{
-    width: 15%;
+    width: 30%;
     height: auto;
     margin: 15px 5px 0 5px;
     border-radius: 4px;
@@ -73,10 +73,6 @@ img.circle.responsive-img {
 #redes-sociales{
     font-size: 300%;
 }
-#tab-galeria img{
-    width: 30%;
-    height: auto;
-}
 footer{
     margin-top: 20px;
 }
@@ -85,4 +81,17 @@ footer{
 }
 div.footer-copyright{
     background-color: #0d3b76;
+}
+/*galeria de fotos css3*/
+#tab-galeria img{
+    width: 30%;
+    height: auto;
+    padding: 10px 10px 50px 10px;
+    background: #eee;
+    border: 1px solid #fff;
+    box-shadow: 0px 2px 15px #333;
+    -moz-box-shadow: 0px 2px 15px #333;
+    -webkit-box-shadow: 0px 2px 15px #333;
+    position: relative;
+    margin:25px 0 0 15px;
 }
