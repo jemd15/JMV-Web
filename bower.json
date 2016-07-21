@@ -1,0 +1,17 @@
+{
+  "name": "jmv-web",
+  "homepage": "https://github.com/jemd15/JMV-Web",
+  "authors": [
+    "JEMD <x_jemd_x@hotmail.com>"
+  ],
+  "description": "pagina para jmv chile",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
