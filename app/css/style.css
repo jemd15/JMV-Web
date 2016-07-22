@@ -45,11 +45,8 @@ header p{
     border-radius: 4px;
     line-height: 1;
 }
-li.active{
+nav li.active{
     background-color: #fbc02d !important;
-}
-#tab-que-es-jmv article strong{
-    color: #0D47A1;
 }
 #tab-inicio article strong{
     color: #fbc02d;
