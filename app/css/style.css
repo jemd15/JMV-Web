@@ -8,13 +8,34 @@ body{
     background-image: url("../images/fondo-header.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
-    background-position-y: -130px;
+    background-position-y: -125px;
     padding-top: 80px;
-    color: white;
+    max-height: 580px;
 }
+/*centrando la nav-bar*/
+.nav-wrapper{
+    clear:both;
+    float:left;
+    overflow:hidden;
+    width:100%;
+}
+#menu {
+    float:left;
+    left:50%;
+    list-style-type:none;
+    margin:0 auto;
+    padding:0;
+    position:relative;
+}
+#menu li {
+    float:left;
+    position:relative;
+    right:50%;
+}
+/*************************/
 .nav-wrapper p{
     background-color: transparent;
-    font-size: 115%;
+    font-size: 150%;
 }
 div.perfil img{
     background-image: url("../images/fondo-bandera-chile.jpg");
@@ -24,13 +45,12 @@ div.perfil img{
 nav{
     border-top: 5px;
 }
-aside p{
-    text-align: justify !important;
-}
 aside a{
     background-color: #fbc02d;
     color: white;
     border-radius: 4px;
+    padding: 5px;
+    margin-top: 15px;
 }
 aside button{
     width: 41%;
@@ -51,9 +71,6 @@ nav li.active{
 #tab-inicio article strong{
     color: #fbc02d;
 }
-#tab-que-es-jmv article{
-    font-size: 150%;
-}
 img.circle.responsive-img {
     width: 15%;
     height: auto;
@@ -64,7 +81,7 @@ img.circle.responsive-img {
     margin: 15px 5px 0 5px;
     border-radius: 4px;
 }
-#tab-consejo-nacional p{
+.card p, .card-panel p{
     text-align: justify;
 }
 #redes-sociales{
@@ -79,16 +96,12 @@ footer{
 div.footer-copyright{
     background-color: #0d3b76;
 }
-/*galeria de fotos css3*/
-#tab-galeria img{
-    width: 30%;
-    height: auto;
-    padding: 10px 10px 50px 10px;
-    background: #eee;
-    border: 1px solid #fff;
-    box-shadow: 0px 2px 15px #333;
-    -moz-box-shadow: 0px 2px 15px #333;
-    -webkit-box-shadow: 0px 2px 15px #333;
-    position: relative;
-    margin:25px 0 0 15px;
+p, aside a, aside button{
+    font-size: 150%;
+}
+
+@media (max-width: 520px) {
+    aside p {
+        font-size: 80%;
+    }
 }

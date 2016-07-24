@@ -106,3 +106,4 @@ $(document).ready(function() {
         return t;
     }(document, "script", "twitter-wjs"));
 });
+$(".button-collapse").sideNav();
