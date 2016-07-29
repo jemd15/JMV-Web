@@ -45,15 +45,15 @@ div.perfil img{
 nav{
     border-top: 5px;
 }
-aside a{
+aside button{
     background-color: #fbc02d;
     color: white;
     border-radius: 4px;
     padding: 5px;
-    margin-top: 15px;
+    margin-top: 5px;
 }
-aside button{
-    width: 41%;
+aside a{
+    width: 100%;
 }
 header p{
     font-size: 1em;
@@ -100,8 +100,3 @@ p, aside a, aside button{
     font-size: 150%;
 }
 
-@media (max-width: 520px) {
-    aside p {
-        font-size: 80%;
-    }
-}
