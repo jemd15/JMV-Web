@@ -9,7 +9,6 @@ body{
     background-size: 100%;
     background-repeat: no-repeat;
     background-position-y: -125px;
-    padding-top: 80px;
     max-height: 580px;
 }
 /*centrando la nav-bar*/
@@ -72,7 +71,7 @@ nav li.active{
     color: #fbc02d;
 }
 img.circle.responsive-img {
-    width: 15%;
+    width: 10%;
     height: auto;
 }
 #tab-consejo-nacional img{
